@@ -1,8 +1,6 @@
 /*
  * mm.c
- * 
- * Name: Yihua Liu
- * 
+ *
  * - Using Segregated free lists, and every list is a Explicit free list
  *   We have 10 lists: {16}, {17~32}, ..., {2049~4096}, {4097~INF}.
  *   We don't set lists for block with size smaller than 16, because the
